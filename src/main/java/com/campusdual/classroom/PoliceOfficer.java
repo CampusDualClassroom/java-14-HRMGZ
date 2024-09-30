@@ -8,4 +8,13 @@ public class PoliceOfficer extends Person {
 		super(name, surname);
 		this.squad = squad;
 	}
+
+	protected void getDetails(){
+		System.out.println("*****************************");
+
+		System.out.println("Nombre: " + this.name);
+		System.out.println("Apellidos: " + this.surname);
+		System.out.println("Equipo: " + this.squad);
+
+	}
 }
