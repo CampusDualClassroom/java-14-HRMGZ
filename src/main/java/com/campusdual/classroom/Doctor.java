@@ -8,4 +8,13 @@ public class Doctor extends Person {
 		super(name, surname);
 		this.specialization = specialization;
 	}
+
+	public void getDetails(){
+        System.out.println("*****************************");
+		System.out.println("Nombre: " + this.name);
+		System.out.println("Apellidos: " + this.surname);
+		System.out.println("Especializacion: " + this.specialization);
+
+	}
+
 }
